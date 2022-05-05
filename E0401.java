@@ -10,25 +10,25 @@ public class E0401 extends JFrame implements ActionListener {
 		h1 = new Hikaku(3); //最大値,最小値計算用のHikakuクラスのオブジェクトを作成指定h1に格納する
 		//アプリケーションのViewの定義
 		Container c = getContentPane();
-		tfX = new JTextField(5);
-		tfY = new JTextField(5);
-		tfZ = new JTextField(5);
+		tfX = new JTextField(5); //1つ目のテキストフィールドを作成する
+		tfY = new JTextField(5); //2つ目のテキストフィールドを作成する
+		tfZ = new JTextField(5); //3つ目のテキストフィールドを作成する
 		
-		JPanel p1 = new JPanel();
-		p1.add(new JLabel("X="));
-		p1.add(tfX);
-		p1.add(new JLabel("Y="));
-		p1.add(tfY);
-		p1.add(new JLabel("Z="));
-		p1.add(tfZ);
+		JPanel p1 = new JPanel(); //パネルを配置する
+		p1.add(new JLabel("X=")); //Xラベルを配置する
+		p1.add(tfX); //1つ目のテキストフィールドを作成する
+		p1.add(new JLabel("Y="));//Yラベルを配置する
+		p1.add(tfY); //2つ目のテキストフィールドを作成する
+		p1.add(new JLabel("Z="));//Zラベルを配置する
+		p1.add(tfZ); //3つ目のテキストフィールドを作成する
 		
-		JPanel p2 = new JPanel();
-		bt1 = new JButton("比較");bt1.addActionListener(this); p2.add(bt1);
-		lb1 = new JLabel("");
+		JPanel p2 = new JPanel(); 
+		bt1 = new JButton("比較");bt1.addActionListener(this); p2.add(bt1); //ボタンを配置する
+		lb1 = new JLabel(""); //ラベルを配置する
 		p2.add(lb1);
-		c.add(new JLabel("最大値と最小値を求めるアプリ(20c2007影山亮太)"),BorderLayout.NORTH);
-		c.add(p1,BorderLayout.CENTER);
-		c.add(p2,BorderLayout.SOUTH);
+		c.add(new JLabel("最大値と最小値を求めるアプリ(20c2007影山亮太)"),BorderLayout.NORTH); //自分のラベルの配置
+		c.add(p1,BorderLayout.CENTER); //ボタンの配置
+		c.add(p2,BorderLayout.SOUTH); //ボタンの配置
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		pack();
 		setVisible(true);

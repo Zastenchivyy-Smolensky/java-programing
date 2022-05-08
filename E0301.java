@@ -37,5 +37,4 @@ public class E0301 extends JFrame {
 		E0301 frm = new E0301();
 
 	}
-
 }

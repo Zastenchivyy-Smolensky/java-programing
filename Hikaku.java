@@ -1,4 +1,3 @@
-
 public class Hikaku {
 	int num;
 	int data[];

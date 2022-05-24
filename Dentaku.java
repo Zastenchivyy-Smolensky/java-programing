@@ -22,7 +22,7 @@ public class Dentaku {
 			state =1;
 			display = num1; 
 		}else if(state==2) {
-			num1 = num2+10+n;
+			num2 = num2*10+n;
 			state = 2;
 			display = num2;
 		}
@@ -83,7 +83,7 @@ public class Dentaku {
 	}
 	void show()
 	{
-		System.out.println("state:"+state+"num1:"+num1+"num2"+num2+"operator"+operator+"display:"+display);
+		System.out.println("state:"+state+" num1:"+num1+" num2:"+num2+" operator:"+operator+" display:"+display);
 	}
 	
 	

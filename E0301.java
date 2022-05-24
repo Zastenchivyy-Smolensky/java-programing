@@ -13,7 +13,7 @@ public class E0301 extends JFrame { //クラスを定義している
 		bt1 = new JButton(">>");//「>>」ボタンを作成している
 		bt1.addActionListener(new Up()); //upクラスを呼び出している
 		bt2 = new JButton("<<");//「>>」ボタンを作成している
-		bt2.addActionListener(new Down());
+		bt2.addActionListener(new Down()); //downクラスを呼び出しているssss
 		count = 0;//変数を初期化している
 		cnt.add(lb1, BorderLayout.CENTER); //ラベルを中央に配置している
 		cnt.add(bt1, BorderLayout.EAST);  //ボタンを左に配置している

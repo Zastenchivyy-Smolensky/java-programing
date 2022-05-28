@@ -62,6 +62,7 @@ public class Dentaku {//Dentakuクラスを定義している
 		}
 		operator="未";//誤りを防ぐための追加
 	}
+	
 	String output() {//結果表示用のメソッド
 		return Integer.toString(display);
 	}

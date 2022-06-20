@@ -111,7 +111,7 @@ public class Dentaku {//Dentakuクラスを定義している
 		d.show();//2ボタンが押された押された時の結果表示
 		d.pushNum(3);//3ボタンが押された時
 		d.show();//3ボタンが押された押された時の結果表示
-		System.out.println("=>"+d.output());
+		System.out.println("=>"+d.output());//結果を表示している.
 	}
 
 }
